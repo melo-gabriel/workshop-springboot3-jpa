@@ -1,10 +1,9 @@
-package com.gabriel.course.repositories;
+package com.educandoweb.course.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.gabriel.course.entities.User;
+import com.educandoweb.course.entities.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
-	
 
 }
